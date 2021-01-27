@@ -1,0 +1,22 @@
+*main{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+img{
+    width: 24rem;
+}
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 60%;
+    margin:auto;
+    flex-direction: column;
+    justify-content: center;
+}
+@media(min-width: 750px)
+    section{
+        flex-direction: row;
+    }
+}
